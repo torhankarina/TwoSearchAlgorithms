@@ -58,7 +58,7 @@ void init_vector(std::vector<int> &vec, int seed, int lo, int hi)
 
 void print_vector(const std::vector<int> &v, int print_cols, int col_width)
 {
-    int dash_len = (col_width + 3) * print_cols + 1;
+    int dash_len = (col_width + 2) * print_cols + 1;
     std::string dashes(dash_len, '-');
 
     std::cout << dashes << "\n";
